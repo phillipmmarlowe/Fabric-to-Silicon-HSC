@@ -9,287 +9,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_lut_\$abc\$198\$new_n30_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_latch_R0_1_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (2038.97:2038.97:2038.97) (2038.97:2038.97:2038.97))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_lut_OUT\[32\]_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (2424.2:2424.2:2424.2) (2424.2:2424.2:2424.2))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_lut_OUT\[33\]_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[1\]_output_0_0_to_lut_\$abc\$198\$new_n30_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[1\]_output_0_0_to_lut_OUT\[33\]_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1433.04:1433.04:1433.04) (1433.04:1433.04:1433.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[2\]_output_0_0_to_lut_\$abc\$198\$new_n29_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1433.04:1433.04:1433.04) (1433.04:1433.04:1433.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[2\]_output_0_0_to_lut_OUT\[34\]_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (2694.78:2694.78:2694.78) (2694.78:2694.78:2694.78))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[2\]_output_0_0_to_lut_OUT\[35\]_input_0_2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (2875.36:2875.36:2875.36) (2875.36:2875.36:2875.36))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[3\]_output_0_0_to_lut_\$abc\$198\$new_n32_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[3\]_output_0_0_to_lut_\$abc\$198\$new_n31_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1162.46:1162.46:1162.46) (1162.46:1162.46:1162.46))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[4\]_output_0_0_to_lut_\$abc\$198\$new_n28_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1433.04:1433.04:1433.04) (1433.04:1433.04:1433.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[4\]_output_0_0_to_lut_OUT\[36\]_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[5\]_output_0_0_to_lut_\$abc\$198\$new_n27_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1162.46:1162.46:1162.46) (1162.46:1162.46:1162.46))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[5\]_output_0_0_to_lut_OUT\[37\]_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1883.62:1883.62:1883.62) (1883.62:1883.62:1883.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[6\]_output_0_0_to_lut_OUT\[38\]_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[6\]_output_0_0_to_lut_OUT\[39\]_input_0_2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1973.62:1973.62:1973.62) (1973.62:1973.62:1973.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[7\]_output_0_0_to_lut_\$abc\$198\$new_n33_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[8\]_output_0_0_to_lut_\$abc\$198\$new_n30_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1162.46:1162.46:1162.46) (1162.46:1162.46:1162.46))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[8\]_output_0_0_to_lut_OUT\[32\]_input_0_2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (2244.2:2244.2:2244.2) (2244.2:2244.2:2244.2))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[8\]_output_0_0_to_lut_OUT\[33\]_input_0_2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[9\]_output_0_0_to_lut_\$abc\$198\$new_n30_input_0_2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1072.46:1072.46:1072.46) (1072.46:1072.46:1072.46))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[9\]_output_0_0_to_lut_OUT\[33\]_input_0_0)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (2154.2:2154.2:2154.2) (2154.2:2154.2:2154.2))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[10\]_output_0_0_to_lut_\$abc\$198\$new_n29_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[10\]_output_0_0_to_lut_OUT\[34\]_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1823.62:1823.62:1823.62) (1823.62:1823.62:1823.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[10\]_output_0_0_to_lut_OUT\[35\]_input_0_3)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1973.62:1973.62:1973.62) (1973.62:1973.62:1973.62))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[11\]_output_0_0_to_lut_\$abc\$198\$new_n32_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1433.04:1433.04:1433.04) (1433.04:1433.04:1433.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[11\]_output_0_0_to_lut_\$abc\$198\$new_n31_input_0_2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1433.04:1433.04:1433.04) (1433.04:1433.04:1433.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[12\]_output_0_0_to_lut_\$abc\$198\$new_n28_input_0_2)
+        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_lut_\$abc\$198\$new_n30__input_0_3)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (2063.62:2063.62:2063.62) (2063.62:2063.62:2063.62))
@@ -299,37 +19,27 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[12\]_output_0_0_to_lut_OUT\[36\]_input_0_3)
+        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_latch_R0_1_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1162.46:1162.46:1162.46) (1162.46:1162.46:1162.46))
+                (IOPATH datain dataout (2128.97:2128.97:2128.97) (2128.97:2128.97:2128.97))
             )
         )
     )
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[13\]_output_0_0_to_lut_\$abc\$198\$new_n27_input_0_0)
+        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_lut_OUT\[32\]_input_0_2)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
+                (IOPATH datain dataout (1252.46:1252.46:1252.46) (1252.46:1252.46:1252.46))
             )
         )
     )
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[13\]_output_0_0_to_lut_OUT\[37\]_input_0_1)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
-            )
-        )
-    )
-
-    (CELL
-        (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[14\]_output_0_0_to_lut_OUT\[38\]_input_0_2)
+        (INSTANCE routing_segment_IN\[0\]_output_0_0_to_lut_OUT\[33\]_input_0_2)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (1883.62:1883.62:1883.62) (1883.62:1883.62:1883.62))
@@ -339,7 +49,287 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[14\]_output_0_0_to_lut_OUT\[39\]_input_0_0)
+        (INSTANCE routing_segment_IN\[1\]_output_0_0_to_lut_\$abc\$198\$new_n30__input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[1\]_output_0_0_to_lut_OUT\[33\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[2\]_output_0_0_to_lut_\$abc\$198\$new_n29__input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[2\]_output_0_0_to_lut_OUT\[34\]_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1252.46:1252.46:1252.46) (1252.46:1252.46:1252.46))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[2\]_output_0_0_to_lut_OUT\[35\]_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2244.2:2244.2:2244.2) (2244.2:2244.2:2244.2))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[3\]_output_0_0_to_lut_\$abc\$198\$new_n32__input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[3\]_output_0_0_to_lut_\$abc\$198\$new_n31__input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[4\]_output_0_0_to_lut_\$abc\$198\$new_n28__input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[4\]_output_0_0_to_lut_OUT\[36\]_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1162.46:1162.46:1162.46) (1162.46:1162.46:1162.46))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[5\]_output_0_0_to_lut_\$abc\$198\$new_n27__input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[5\]_output_0_0_to_lut_OUT\[37\]_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[6\]_output_0_0_to_lut_OUT\[38\]_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1162.46:1162.46:1162.46) (1162.46:1162.46:1162.46))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[6\]_output_0_0_to_lut_OUT\[39\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[7\]_output_0_0_to_lut_\$abc\$198\$new_n33__input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1433.04:1433.04:1433.04) (1433.04:1433.04:1433.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[8\]_output_0_0_to_lut_\$abc\$198\$new_n30__input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[8\]_output_0_0_to_lut_OUT\[32\]_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2424.2:2424.2:2424.2) (2424.2:2424.2:2424.2))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[8\]_output_0_0_to_lut_OUT\[33\]_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2063.62:2063.62:2063.62) (2063.62:2063.62:2063.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[9\]_output_0_0_to_lut_\$abc\$198\$new_n30__input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[9\]_output_0_0_to_lut_OUT\[33\]_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2063.62:2063.62:2063.62) (2063.62:2063.62:2063.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[10\]_output_0_0_to_lut_\$abc\$198\$new_n29__input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1913.62:1913.62:1913.62) (1913.62:1913.62:1913.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[10\]_output_0_0_to_lut_OUT\[34\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[10\]_output_0_0_to_lut_OUT\[35\]_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1823.62:1823.62:1823.62) (1823.62:1823.62:1823.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[11\]_output_0_0_to_lut_\$abc\$198\$new_n32__input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[11\]_output_0_0_to_lut_\$abc\$198\$new_n31__input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1883.62:1883.62:1883.62) (1883.62:1883.62:1883.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[12\]_output_0_0_to_lut_\$abc\$198\$new_n28__input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1793.62:1793.62:1793.62) (1793.62:1793.62:1793.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[12\]_output_0_0_to_lut_OUT\[36\]_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1823.62:1823.62:1823.62) (1823.62:1823.62:1823.62))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[13\]_output_0_0_to_lut_\$abc\$198\$new_n27__input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2334.2:2334.2:2334.2) (2334.2:2334.2:2334.2))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[13\]_output_0_0_to_lut_OUT\[37\]_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2244.2:2244.2:2244.2) (2244.2:2244.2:2244.2))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[14\]_output_0_0_to_lut_OUT\[38\]_input_0_0)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (2154.2:2154.2:2154.2) (2154.2:2154.2:2154.2))
@@ -349,10 +339,20 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_IN\[15\]_output_0_0_to_lut_\$abc\$198\$new_n33_input_0_1)
+        (INSTANCE routing_segment_IN\[14\]_output_0_0_to_lut_OUT\[39\]_input_0_2)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1613.04:1613.04:1613.04) (1613.04:1613.04:1613.04))
+                (IOPATH datain dataout (1252.46:1252.46:1252.46) (1252.46:1252.46:1252.46))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_IN\[15\]_output_0_0_to_lut_\$abc\$198\$new_n33__input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1523.04:1523.04:1523.04) (1523.04:1523.04:1523.04))
             )
         )
     )
@@ -392,7 +392,7 @@
         (INSTANCE routing_segment_lut_OUT\[33\]_output_0_0_to_OUT\[33\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2078.92:2078.92:2078.92) (2078.92:2078.92:2078.92))
+                (IOPATH datain dataout (1988.92:1988.92:1988.92) (1988.92:1988.92:1988.92))
             )
         )
     )
@@ -432,7 +432,7 @@
         (INSTANCE routing_segment_lut_OUT\[37\]_output_0_0_to_OUT\[37\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1898.92:1898.92:1898.92) (1898.92:1898.92:1898.92))
+                (IOPATH datain dataout (1988.92:1988.92:1988.92) (1988.92:1988.92:1988.92))
             )
         )
     )
@@ -462,7 +462,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[2\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8839.36:8839.36:8839.36) (8839.36:8839.36:8839.36))
+                (IOPATH datain dataout (7127.04:7127.04:7127.04) (7127.04:7127.04:7127.04))
             )
         )
     )
@@ -472,7 +472,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[3\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8839.36:8839.36:8839.36) (8839.36:8839.36:8839.36))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -482,7 +482,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[4\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (7307.04:7307.04:7307.04) (7307.04:7307.04:7307.04))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -492,7 +492,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[5\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9019.36:9019.36:9019.36) (9019.36:9019.36:9019.36))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -502,7 +502,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[6\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -512,7 +512,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[7\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -522,7 +522,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[8\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2710.08:2710.08:2710.08) (2710.08:2710.08:2710.08))
+                (IOPATH datain dataout (5504.72:5504.72:5504.72) (5504.72:5504.72:5504.72))
             )
         )
     )
@@ -532,7 +532,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[9\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9019.36:9019.36:9019.36) (9019.36:9019.36:9019.36))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -542,7 +542,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[10\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9019.36:9019.36:9019.36) (9019.36:9019.36:9019.36))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -552,7 +552,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[11\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9650.52:9650.52:9650.52) (9650.52:9650.52:9650.52))
+                (IOPATH datain dataout (3701.82:3701.82:3701.82) (3701.82:3701.82:3701.82))
             )
         )
     )
@@ -562,7 +562,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[12\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8839.36:8839.36:8839.36) (8839.36:8839.36:8839.36))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -582,7 +582,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[14\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (7307.04:7307.04:7307.04) (7307.04:7307.04:7307.04))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -592,7 +592,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[15\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8388.78:8388.78:8388.78) (8388.78:8388.78:8388.78))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -602,7 +602,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[16\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -612,7 +612,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[17\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8839.36:8839.36:8839.36) (8839.36:8839.36:8839.36))
+                (IOPATH datain dataout (5234.14:5234.14:5234.14) (5234.14:5234.14:5234.14))
             )
         )
     )
@@ -622,7 +622,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[18\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (7307.04:7307.04:7307.04) (7307.04:7307.04:7307.04))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -632,7 +632,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[19\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9019.36:9019.36:9019.36) (9019.36:9019.36:9019.36))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -642,7 +642,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[20\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9019.36:9019.36:9019.36) (9019.36:9019.36:9019.36))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -652,7 +652,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[21\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -662,7 +662,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[22\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9440.52:9440.52:9440.52) (9440.52:9440.52:9440.52))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -672,7 +672,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[23\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (7307.04:7307.04:7307.04) (7307.04:7307.04:7307.04))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -682,7 +682,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[24\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (7307.04:7307.04:7307.04) (7307.04:7307.04:7307.04))
+                (IOPATH datain dataout (7037.04:7037.04:7037.04) (7037.04:7037.04:7037.04))
             )
         )
     )
@@ -692,7 +692,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[25\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2710.08:2710.08:2710.08) (2710.08:2710.08:2710.08))
+                (IOPATH datain dataout (5504.72:5504.72:5504.72) (5504.72:5504.72:5504.72))
             )
         )
     )
@@ -702,7 +702,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[26\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (6315.88:6315.88:6315.88) (6315.88:6315.88:6315.88))
             )
         )
     )
@@ -712,7 +712,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[27\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8839.36:8839.36:8839.36) (8839.36:8839.36:8839.36))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -722,7 +722,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[28\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9650.52:9650.52:9650.52) (9650.52:9650.52:9650.52))
+                (IOPATH datain dataout (3701.82:3701.82:3701.82) (3701.82:3701.82:3701.82))
             )
         )
     )
@@ -732,7 +732,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[29\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (10191.7:10191.7:10191.7) (10191.7:10191.7:10191.7))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -752,7 +752,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[31\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (7127.04:7127.04:7127.04) (7127.04:7127.04:7127.04))
             )
         )
     )
@@ -772,7 +772,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[41\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1898.92:1898.92:1898.92) (1898.92:1898.92:1898.92))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -782,7 +782,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[42\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (3521.24:3521.24:3521.24) (3521.24:3521.24:3521.24))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -792,7 +792,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[43\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8118.2:8118.2:8118.2) (8118.2:8118.2:8118.2))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -802,7 +802,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[44\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2710.08:2710.08:2710.08) (2710.08:2710.08:2710.08))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -832,7 +832,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[47\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8298.78:8298.78:8298.78) (8298.78:8298.78:8298.78))
+                (IOPATH datain dataout (6225.88:6225.88:6225.88) (6225.88:6225.88:6225.88))
             )
         )
     )
@@ -842,7 +842,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[48\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (6495.88:6495.88:6495.88) (6495.88:6495.88:6495.88))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -852,7 +852,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[49\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (6495.88:6495.88:6495.88) (6495.88:6495.88:6495.88))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -872,7 +872,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[51\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (4963.56:4963.56:4963.56) (4963.56:4963.56:4963.56))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -882,7 +882,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[52\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (9650.52:9650.52:9650.52) (9650.52:9650.52:9650.52))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -892,7 +892,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[53\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (6495.88:6495.88:6495.88) (6495.88:6495.88:6495.88))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -922,7 +922,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[56\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (11272.8:11272.8:11272.8) (11272.8:11272.8:11272.8))
+                (IOPATH datain dataout (3701.82:3701.82:3701.82) (3701.82:3701.82:3701.82))
             )
         )
     )
@@ -932,7 +932,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[57\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8118.2:8118.2:8118.2) (8118.2:8118.2:8118.2))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -942,7 +942,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[58\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1898.92:1898.92:1898.92) (1898.92:1898.92:1898.92))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -952,7 +952,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[59\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (3521.24:3521.24:3521.24) (3521.24:3521.24:3521.24))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -982,7 +982,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[62\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (8118.2:8118.2:8118.2) (8118.2:8118.2:8118.2))
+                (IOPATH datain dataout (5234.14:5234.14:5234.14) (5234.14:5234.14:5234.14))
             )
         )
     )
@@ -992,7 +992,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[63\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (6495.88:6495.88:6495.88) (6495.88:6495.88:6495.88))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1042,7 +1042,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[68\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (10281.7:10281.7:10281.7) (10281.7:10281.7:10281.7))
+                (IOPATH datain dataout (6315.88:6315.88:6315.88) (6315.88:6315.88:6315.88))
             )
         )
     )
@@ -1182,7 +1182,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[82\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2980.66:2980.66:2980.66) (2980.66:2980.66:2980.66))
+                (IOPATH datain dataout (5234.14:5234.14:5234.14) (5234.14:5234.14:5234.14))
             )
         )
     )
@@ -1192,7 +1192,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[83\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2800.08:2800.08:2800.08) (2800.08:2800.08:2800.08))
+                (IOPATH datain dataout (4422.98:4422.98:4422.98) (4422.98:4422.98:4422.98))
             )
         )
     )
@@ -1242,7 +1242,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[88\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2800.08:2800.08:2800.08) (2800.08:2800.08:2800.08))
+                (IOPATH datain dataout (4422.98:4422.98:4422.98) (4422.98:4422.98:4422.98))
             )
         )
     )
@@ -1382,7 +1382,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[102\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2078.92:2078.92:2078.92) (2078.92:2078.92:2078.92))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1392,7 +1392,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[103\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (3701.82:3701.82:3701.82) (3701.82:3701.82:3701.82))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1412,7 +1412,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[105\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (3791.82:3791.82:3791.82) (3791.82:3791.82:3791.82))
+                (IOPATH datain dataout (6045.3:6045.3:6045.3) (6045.3:6045.3:6045.3))
             )
         )
     )
@@ -1482,7 +1482,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[112\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (3791.82:3791.82:3791.82) (3791.82:3791.82:3791.82))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1532,7 +1532,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[117\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2259.5:2259.5:2259.5) (2259.5:2259.5:2259.5))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1572,7 +1572,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[121\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2078.92:2078.92:2078.92) (2078.92:2078.92:2078.92))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1612,7 +1612,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[125\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2078.92:2078.92:2078.92) (2078.92:2078.92:2078.92))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1622,7 +1622,7 @@
         (INSTANCE routing_segment_lut_\$undef_output_0_0_to_OUT\[126\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2078.92:2078.92:2078.92) (2078.92:2078.92:2078.92))
+                (IOPATH datain dataout (4512.98:4512.98:4512.98) (4512.98:4512.98:4512.98))
             )
         )
     )
@@ -1639,7 +1639,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n33_output_0_0_to_lut_OUT\[39\]_input_0_3)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n33__output_0_0_to_lut_OUT\[39\]_input_0_3)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (1116.66:1116.66:1116.66) (1116.66:1116.66:1116.66))
@@ -1649,7 +1649,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n27_output_0_0_to_lut_OUT\[38\]_input_0_3)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n27__output_0_0_to_lut_OUT\[38\]_input_0_3)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (1927.82:1927.82:1927.82) (1927.82:1927.82:1927.82))
@@ -1659,7 +1659,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n27_output_0_0_to_lut_OUT\[39\]_input_0_1)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n27__output_0_0_to_lut_OUT\[39\]_input_0_1)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (666.08:666.08:666.08) (666.08:666.08:666.08))
@@ -1669,7 +1669,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n28_output_0_0_to_lut_\$abc\$198\$new_n27_input_0_1)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n28__output_0_0_to_lut_\$abc\$198\$new_n27__input_0_1)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (666.08:666.08:666.08) (666.08:666.08:666.08))
@@ -1679,7 +1679,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n28_output_0_0_to_lut_OUT\[37\]_input_0_0)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n28__output_0_0_to_lut_OUT\[37\]_input_0_0)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (756.08:756.08:756.08) (756.08:756.08:756.08))
@@ -1689,17 +1689,17 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n32_output_0_0_to_lut_\$abc\$198\$new_n28_input_0_0)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n32__output_0_0_to_lut_\$abc\$198\$new_n28__input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2198.4:2198.4:2198.4) (2198.4:2198.4:2198.4))
+                (IOPATH datain dataout (2078.4:2078.4:2078.4) (2078.4:2078.4:2078.4))
             )
         )
     )
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n32_output_0_0_to_lut_OUT\[36\]_input_0_2)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n32__output_0_0_to_lut_OUT\[36\]_input_0_2)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (1116.66:1116.66:1116.66) (1116.66:1116.66:1116.66))
@@ -1709,7 +1709,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n29_output_0_0_to_lut_\$abc\$198\$new_n28_input_0_3)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n29__output_0_0_to_lut_\$abc\$198\$new_n28__input_0_3)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (1206.66:1206.66:1206.66) (1206.66:1206.66:1206.66))
@@ -1719,7 +1719,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n29_output_0_0_to_lut_OUT\[36\]_input_0_1)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n29__output_0_0_to_lut_OUT\[36\]_input_0_1)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (756.08:756.08:756.08) (756.08:756.08:756.08))
@@ -1729,7 +1729,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n31_output_0_0_to_lut_\$abc\$198\$new_n29_input_0_2)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n31__output_0_0_to_lut_\$abc\$198\$new_n29__input_0_2)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (1927.82:1927.82:1927.82) (1927.82:1927.82:1927.82))
@@ -1739,7 +1739,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n31_output_0_0_to_lut_OUT\[35\]_input_0_0)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n31__output_0_0_to_lut_OUT\[35\]_input_0_0)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (756.08:756.08:756.08) (756.08:756.08:756.08))
@@ -1749,7 +1749,7 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n30_output_0_0_to_lut_\$abc\$198\$new_n29_input_0_0)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n30__output_0_0_to_lut_\$abc\$198\$new_n29__input_0_0)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (666.08:666.08:666.08) (666.08:666.08:666.08))
@@ -1759,17 +1759,17 @@
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n30_output_0_0_to_lut_OUT\[34\]_input_0_2)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n30__output_0_0_to_lut_OUT\[34\]_input_0_2)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (1747.82:1747.82:1747.82) (1747.82:1747.82:1747.82))
+                (IOPATH datain dataout (1387.24:1387.24:1387.24) (1387.24:1387.24:1387.24))
             )
         )
     )
 
     (CELL
         (CELLTYPE "fpga_interconnect")
-        (INSTANCE routing_segment_lut_\$abc\$198\$new_n30_output_0_0_to_lut_OUT\[35\]_input_0_1)
+        (INSTANCE routing_segment_lut_\$abc\$198\$new_n30__output_0_0_to_lut_OUT\[35\]_input_0_1)
         (DELAY
             (ABSOLUTE
                 (IOPATH datain dataout (666.08:666.08:666.08) (666.08:666.08:666.08))
@@ -1802,14 +1802,14 @@
         (INSTANCE routing_segment_latch_R0_output_0_0_to_OUT\[1\]_input_0_0)
         (DELAY
             (ABSOLUTE
-                (IOPATH datain dataout (2078.92:2078.92:2078.92) (2078.92:2078.92:2078.92))
+                (IOPATH datain dataout (1177.76:1177.76:1177.76) (1177.76:1177.76:1177.76))
             )
         )
     )
 
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n32)
+        (INSTANCE lut_\$abc\$198\$new_n32_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[1] out (155.353:155.353:155.353) (155.353:155.353:155.353))
@@ -1820,7 +1820,7 @@
     
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n30)
+        (INSTANCE lut_\$abc\$198\$new_n30_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[0] out (155.353:155.353:155.353) (155.353:155.353:155.353))
@@ -1833,7 +1833,7 @@
     
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n31)
+        (INSTANCE lut_\$abc\$198\$new_n31_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[2] out (155.353:155.353:155.353) (155.353:155.353:155.353))
@@ -1844,7 +1844,7 @@
     
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n29)
+        (INSTANCE lut_\$abc\$198\$new_n29_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[0] out (155.353:155.353:155.353) (155.353:155.353:155.353))
@@ -1857,7 +1857,7 @@
     
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n28)
+        (INSTANCE lut_\$abc\$198\$new_n28_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[0] out (155.353:155.353:155.353) (155.353:155.353:155.353))
@@ -1882,7 +1882,7 @@
     
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n27)
+        (INSTANCE lut_\$abc\$198\$new_n27_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[0] out (155.353:155.353:155.353) (155.353:155.353:155.353))
@@ -2007,7 +2007,7 @@
     
     (CELL
         (CELLTYPE "LUT_K")
-        (INSTANCE lut_\$abc\$198\$new_n33)
+        (INSTANCE lut_\$abc\$198\$new_n33_)
         (DELAY
             (ABSOLUTE
                 (IOPATH in[0] out (155.353:155.353:155.353) (155.353:155.353:155.353))

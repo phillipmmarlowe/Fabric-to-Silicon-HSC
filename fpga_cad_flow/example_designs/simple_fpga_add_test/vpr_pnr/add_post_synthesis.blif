@@ -296,75 +296,75 @@
 1 1
 
 #Interconnect
-.names IN[0]_output_0_0 lut_$abc$198$new_n30_input_0_1
+.names IN[0]_output_0_0 lut_$abc$198$new_n30__input_0_3
 1 1
 .names IN[0]_output_0_0 latch_R0_1_input_0_0
 1 1
-.names IN[0]_output_0_0 lut_OUT[32]_input_0_1
+.names IN[0]_output_0_0 lut_OUT[32]_input_0_2
 1 1
-.names IN[0]_output_0_0 lut_OUT[33]_input_0_3
+.names IN[0]_output_0_0 lut_OUT[33]_input_0_2
 1 1
-.names IN[1]_output_0_0 lut_$abc$198$new_n30_input_0_0
+.names IN[1]_output_0_0 lut_$abc$198$new_n30__input_0_2
 1 1
-.names IN[1]_output_0_0 lut_OUT[33]_input_0_1
+.names IN[1]_output_0_0 lut_OUT[33]_input_0_0
 1 1
-.names IN[2]_output_0_0 lut_$abc$198$new_n29_input_0_3
+.names IN[2]_output_0_0 lut_$abc$198$new_n29__input_0_1
 1 1
-.names IN[2]_output_0_0 lut_OUT[34]_input_0_0
+.names IN[2]_output_0_0 lut_OUT[34]_input_0_3
 1 1
-.names IN[2]_output_0_0 lut_OUT[35]_input_0_2
+.names IN[2]_output_0_0 lut_OUT[35]_input_0_3
 1 1
-.names IN[3]_output_0_0 lut_$abc$198$new_n32_input_0_3
+.names IN[3]_output_0_0 lut_$abc$198$new_n32__input_0_1
 1 1
-.names IN[3]_output_0_0 lut_$abc$198$new_n31_input_0_3
+.names IN[3]_output_0_0 lut_$abc$198$new_n31__input_0_2
 1 1
-.names IN[4]_output_0_0 lut_$abc$198$new_n28_input_0_1
+.names IN[4]_output_0_0 lut_$abc$198$new_n28__input_0_2
 1 1
-.names IN[4]_output_0_0 lut_OUT[36]_input_0_0
+.names IN[4]_output_0_0 lut_OUT[36]_input_0_3
 1 1
-.names IN[5]_output_0_0 lut_$abc$198$new_n27_input_0_3
+.names IN[5]_output_0_0 lut_$abc$198$new_n27__input_0_0
 1 1
-.names IN[5]_output_0_0 lut_OUT[37]_input_0_3
+.names IN[5]_output_0_0 lut_OUT[37]_input_0_1
 1 1
-.names IN[6]_output_0_0 lut_OUT[38]_input_0_0
+.names IN[6]_output_0_0 lut_OUT[38]_input_0_2
 1 1
-.names IN[6]_output_0_0 lut_OUT[39]_input_0_2
+.names IN[6]_output_0_0 lut_OUT[39]_input_0_0
 1 1
-.names IN[7]_output_0_0 lut_$abc$198$new_n33_input_0_0
+.names IN[7]_output_0_0 lut_$abc$198$new_n33__input_0_1
 1 1
-.names IN[8]_output_0_0 lut_$abc$198$new_n30_input_0_3
+.names IN[8]_output_0_0 lut_$abc$198$new_n30__input_0_1
 1 1
-.names IN[8]_output_0_0 lut_OUT[32]_input_0_2
+.names IN[8]_output_0_0 lut_OUT[32]_input_0_1
 1 1
-.names IN[8]_output_0_0 lut_OUT[33]_input_0_2
+.names IN[8]_output_0_0 lut_OUT[33]_input_0_3
 1 1
-.names IN[9]_output_0_0 lut_$abc$198$new_n30_input_0_2
+.names IN[9]_output_0_0 lut_$abc$198$new_n30__input_0_0
 1 1
-.names IN[9]_output_0_0 lut_OUT[33]_input_0_0
+.names IN[9]_output_0_0 lut_OUT[33]_input_0_1
 1 1
-.names IN[10]_output_0_0 lut_$abc$198$new_n29_input_0_1
+.names IN[10]_output_0_0 lut_$abc$198$new_n29__input_0_3
 1 1
-.names IN[10]_output_0_0 lut_OUT[34]_input_0_3
+.names IN[10]_output_0_0 lut_OUT[34]_input_0_0
 1 1
-.names IN[10]_output_0_0 lut_OUT[35]_input_0_3
+.names IN[10]_output_0_0 lut_OUT[35]_input_0_2
 1 1
-.names IN[11]_output_0_0 lut_$abc$198$new_n32_input_0_1
+.names IN[11]_output_0_0 lut_$abc$198$new_n32__input_0_3
 1 1
-.names IN[11]_output_0_0 lut_$abc$198$new_n31_input_0_2
+.names IN[11]_output_0_0 lut_$abc$198$new_n31__input_0_3
 1 1
-.names IN[12]_output_0_0 lut_$abc$198$new_n28_input_0_2
+.names IN[12]_output_0_0 lut_$abc$198$new_n28__input_0_1
 1 1
-.names IN[12]_output_0_0 lut_OUT[36]_input_0_3
+.names IN[12]_output_0_0 lut_OUT[36]_input_0_0
 1 1
-.names IN[13]_output_0_0 lut_$abc$198$new_n27_input_0_0
+.names IN[13]_output_0_0 lut_$abc$198$new_n27__input_0_3
 1 1
-.names IN[13]_output_0_0 lut_OUT[37]_input_0_1
+.names IN[13]_output_0_0 lut_OUT[37]_input_0_3
 1 1
-.names IN[14]_output_0_0 lut_OUT[38]_input_0_2
+.names IN[14]_output_0_0 lut_OUT[38]_input_0_0
 1 1
-.names IN[14]_output_0_0 lut_OUT[39]_input_0_0
+.names IN[14]_output_0_0 lut_OUT[39]_input_0_2
 1 1
-.names IN[15]_output_0_0 lut_$abc$198$new_n33_input_0_1
+.names IN[15]_output_0_0 lut_$abc$198$new_n33__input_0_0
 1 1
 .names clk_output_0_0 latch_R0_clock_0_0
 1 1
@@ -622,33 +622,33 @@
 1 1
 .names lut_$undef_output_0_0 OUT[127]_input_0_0
 1 1
-.names lut_$abc$198$new_n33_output_0_0 lut_OUT[39]_input_0_3
+.names lut_$abc$198$new_n33__output_0_0 lut_OUT[39]_input_0_3
 1 1
-.names lut_$abc$198$new_n27_output_0_0 lut_OUT[38]_input_0_3
+.names lut_$abc$198$new_n27__output_0_0 lut_OUT[38]_input_0_3
 1 1
-.names lut_$abc$198$new_n27_output_0_0 lut_OUT[39]_input_0_1
+.names lut_$abc$198$new_n27__output_0_0 lut_OUT[39]_input_0_1
 1 1
-.names lut_$abc$198$new_n28_output_0_0 lut_$abc$198$new_n27_input_0_1
+.names lut_$abc$198$new_n28__output_0_0 lut_$abc$198$new_n27__input_0_1
 1 1
-.names lut_$abc$198$new_n28_output_0_0 lut_OUT[37]_input_0_0
+.names lut_$abc$198$new_n28__output_0_0 lut_OUT[37]_input_0_0
 1 1
-.names lut_$abc$198$new_n32_output_0_0 lut_$abc$198$new_n28_input_0_0
+.names lut_$abc$198$new_n32__output_0_0 lut_$abc$198$new_n28__input_0_0
 1 1
-.names lut_$abc$198$new_n32_output_0_0 lut_OUT[36]_input_0_2
+.names lut_$abc$198$new_n32__output_0_0 lut_OUT[36]_input_0_2
 1 1
-.names lut_$abc$198$new_n29_output_0_0 lut_$abc$198$new_n28_input_0_3
+.names lut_$abc$198$new_n29__output_0_0 lut_$abc$198$new_n28__input_0_3
 1 1
-.names lut_$abc$198$new_n29_output_0_0 lut_OUT[36]_input_0_1
+.names lut_$abc$198$new_n29__output_0_0 lut_OUT[36]_input_0_1
 1 1
-.names lut_$abc$198$new_n31_output_0_0 lut_$abc$198$new_n29_input_0_2
+.names lut_$abc$198$new_n31__output_0_0 lut_$abc$198$new_n29__input_0_2
 1 1
-.names lut_$abc$198$new_n31_output_0_0 lut_OUT[35]_input_0_0
+.names lut_$abc$198$new_n31__output_0_0 lut_OUT[35]_input_0_0
 1 1
-.names lut_$abc$198$new_n30_output_0_0 lut_$abc$198$new_n29_input_0_0
+.names lut_$abc$198$new_n30__output_0_0 lut_$abc$198$new_n29__input_0_0
 1 1
-.names lut_$abc$198$new_n30_output_0_0 lut_OUT[34]_input_0_2
+.names lut_$abc$198$new_n30__output_0_0 lut_OUT[34]_input_0_2
 1 1
-.names lut_$abc$198$new_n30_output_0_0 lut_OUT[35]_input_0_1
+.names lut_$abc$198$new_n30__output_0_0 lut_OUT[35]_input_0_1
 1 1
 .names latch_R0_1_output_0_0 latch_R0_input_0_0
 1 1
@@ -658,10 +658,10 @@
 1 1
 
 #Cell instances
-.names __vpr__unconn0 lut_$abc$198$new_n32_input_0_1 __vpr__unconn1 lut_$abc$198$new_n32_input_0_3 lut_$abc$198$new_n32_output_0_0 
+.names __vpr__unconn0 lut_$abc$198$new_n32__input_0_1 __vpr__unconn1 lut_$abc$198$new_n32__input_0_3 lut_$abc$198$new_n32__output_0_0 
 0101 1
 
-.names lut_$abc$198$new_n30_input_0_0 lut_$abc$198$new_n30_input_0_1 lut_$abc$198$new_n30_input_0_2 lut_$abc$198$new_n30_input_0_3 lut_$abc$198$new_n30_output_0_0 
+.names lut_$abc$198$new_n30__input_0_0 lut_$abc$198$new_n30__input_0_1 lut_$abc$198$new_n30__input_0_2 lut_$abc$198$new_n30__input_0_3 lut_$abc$198$new_n30__output_0_0 
 1010 0
 1110 0
 1101 0
@@ -669,17 +669,17 @@
 0111 0
 1111 0
 
-.names __vpr__unconn2 __vpr__unconn3 lut_$abc$198$new_n31_input_0_2 lut_$abc$198$new_n31_input_0_3 lut_$abc$198$new_n31_output_0_0 
+.names __vpr__unconn2 __vpr__unconn3 lut_$abc$198$new_n31__input_0_2 lut_$abc$198$new_n31__input_0_3 lut_$abc$198$new_n31__output_0_0 
 0010 1
 0001 1
 
-.names lut_$abc$198$new_n29_input_0_0 lut_$abc$198$new_n29_input_0_1 lut_$abc$198$new_n29_input_0_2 lut_$abc$198$new_n29_input_0_3 lut_$abc$198$new_n29_output_0_0 
+.names lut_$abc$198$new_n29__input_0_0 lut_$abc$198$new_n29__input_0_1 lut_$abc$198$new_n29__input_0_2 lut_$abc$198$new_n29__input_0_3 lut_$abc$198$new_n29__output_0_0 
 0110 1
 0011 1
 0111 1
 1111 1
 
-.names lut_$abc$198$new_n28_input_0_0 lut_$abc$198$new_n28_input_0_1 lut_$abc$198$new_n28_input_0_2 lut_$abc$198$new_n28_input_0_3 lut_$abc$198$new_n28_output_0_0 
+.names lut_$abc$198$new_n28__input_0_0 lut_$abc$198$new_n28__input_0_1 lut_$abc$198$new_n28__input_0_2 lut_$abc$198$new_n28__input_0_3 lut_$abc$198$new_n28__output_0_0 
 0000 1
 1000 1
 0100 1
@@ -693,7 +693,7 @@
 1001 1
 0011 1
 
-.names lut_$abc$198$new_n27_input_0_0 lut_$abc$198$new_n27_input_0_1 __vpr__unconn5 lut_$abc$198$new_n27_input_0_3 lut_$abc$198$new_n27_output_0_0 
+.names lut_$abc$198$new_n27__input_0_0 lut_$abc$198$new_n27__input_0_1 __vpr__unconn5 lut_$abc$198$new_n27__input_0_3 lut_$abc$198$new_n27__output_0_0 
 0000 1
 0100 1
 1100 1
@@ -757,7 +757,7 @@
 0011 0
 0111 0
 
-.names lut_$abc$198$new_n33_input_0_0 lut_$abc$198$new_n33_input_0_1 __vpr__unconn10 __vpr__unconn11 lut_$abc$198$new_n33_output_0_0 
+.names lut_$abc$198$new_n33__input_0_0 lut_$abc$198$new_n33__input_0_1 __vpr__unconn10 __vpr__unconn11 lut_$abc$198$new_n33__output_0_0 
 0000 1
 1100 1
 

@@ -1,11 +1,11 @@
-Netlist_File: add_syn.net Netlist_ID: SHA256:e8599eed06301b7434dcfb7aee62a5bad7ebd5c86b029b6d92a2d37a4eb6498e
+Netlist_File: add_syn.net Netlist_ID: SHA256:43bbce334df04bb4e60b17c21370f9c4c9d2b94336bf6983fe14d615cef70200
 Array size: 6 x 6 logic blocks
 
 #block name	x	y	subblk	block number
 #----------	--	--	------	------------
 OUT[39]		3	1	0	#0
 OUT[36]		3	2	0	#1
-$abc$198$new_n33	2	1	0	#2
+$abc$198$new_n33_	2	1	0	#2
 $undef		3	3	0	#3
 out:OUT[38]	4	2	6	#4
 out:OUT[39]	4	2	7	#5

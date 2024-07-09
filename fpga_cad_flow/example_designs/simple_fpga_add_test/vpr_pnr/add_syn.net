@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<block name="add_syn.net" instance="FPGA_packed_netlist[0]" architecture_id="SHA256:83a78042064f8fe163e1b48a181f61d0137ed0c6d465f5b0ae332aad703df2aa" atom_netlist_id="SHA256:aabacde390c38d25ccab8ada204abc70b07f23d4d3a5c2c51bff3e50bf3a4274">
+<block name="add_syn.net" instance="FPGA_packed_netlist[0]" architecture_id="SHA256:83a78042064f8fe163e1b48a181f61d0137ed0c6d465f5b0ae332aad703df2aa" atom_netlist_id="SHA256:dbe33029780684210a6ffe1c3b7e7478978af6144d3aee149c98eef0c498af99">
 	<inputs>IN[0] IN[1] IN[2] IN[3] IN[4] IN[5] IN[6] IN[7] IN[8] IN[9] IN[10] IN[11] IN[12] IN[13] IN[14] IN[15] clk</inputs>
 	<outputs>out:OUT[0] out:OUT[1] out:OUT[2] out:OUT[3] out:OUT[4] out:OUT[5] out:OUT[6] out:OUT[7] out:OUT[8] out:OUT[9] out:OUT[10] out:OUT[11] out:OUT[12] out:OUT[13] out:OUT[14] out:OUT[15] out:OUT[16] out:OUT[17] out:OUT[18] out:OUT[19] out:OUT[20] out:OUT[21] out:OUT[22] out:OUT[23] out:OUT[24] out:OUT[25] out:OUT[26] out:OUT[27] out:OUT[28] out:OUT[29] out:OUT[30] out:OUT[31] out:OUT[32] out:OUT[33] out:OUT[34] out:OUT[35] out:OUT[36] out:OUT[37] out:OUT[38] out:OUT[39] out:OUT[40] out:OUT[41] out:OUT[42] out:OUT[43] out:OUT[44] out:OUT[45] out:OUT[46] out:OUT[47] out:OUT[48] out:OUT[49] out:OUT[50] out:OUT[51] out:OUT[52] out:OUT[53] out:OUT[54] out:OUT[55] out:OUT[56] out:OUT[57] out:OUT[58] out:OUT[59] out:OUT[60] out:OUT[61] out:OUT[62] out:OUT[63] out:OUT[64] out:OUT[65] out:OUT[66] out:OUT[67] out:OUT[68] out:OUT[69] out:OUT[70] out:OUT[71] out:OUT[72] out:OUT[73] out:OUT[74] out:OUT[75] out:OUT[76] out:OUT[77] out:OUT[78] out:OUT[79] out:OUT[80] out:OUT[81] out:OUT[82] out:OUT[83] out:OUT[84] out:OUT[85] out:OUT[86] out:OUT[87] out:OUT[88] out:OUT[89] out:OUT[90] out:OUT[91] out:OUT[92] out:OUT[93] out:OUT[94] out:OUT[95] out:OUT[96] out:OUT[97] out:OUT[98] out:OUT[99] out:OUT[100] out:OUT[101] out:OUT[102] out:OUT[103] out:OUT[104] out:OUT[105] out:OUT[106] out:OUT[107] out:OUT[108] out:OUT[109] out:OUT[110] out:OUT[111] out:OUT[112] out:OUT[113] out:OUT[114] out:OUT[115] out:OUT[116] out:OUT[117] out:OUT[118] out:OUT[119] out:OUT[120] out:OUT[121] out:OUT[122] out:OUT[123] out:OUT[124] out:OUT[125] out:OUT[126] out:OUT[127]</outputs>
 	<clocks>clk</clocks>
 	<block name="OUT[39]" instance="clbsite[0]" mode="default">
 		<inputs>
-			<port name="I">open IN[1] open $abc$198$new_n30 $abc$198$new_n32 IN[6] IN[13] IN[14] IN[11] IN[0] open IN[10] IN[4] open $abc$198$new_n28 $abc$198$new_n27 open IN[9] IN[11] $abc$198$new_n31 IN[12] IN[14] open IN[6] IN[3] IN[8] IN[3] IN[2] $abc$198$new_n29 $abc$198$new_n27 IN[5] $abc$198$new_n33 open open open open open open open open</port>
+			<port name="I">open IN[9] open $abc$198$new_n30_ $abc$198$new_n32_ IN[14] IN[5] IN[6] IN[3] IN[8] open IN[2] IN[12] open $abc$198$new_n28_ $abc$198$new_n27_ open IN[1] IN[3] $abc$198$new_n31_ IN[4] IN[6] open IN[14] IN[11] IN[0] IN[11] IN[10] $abc$198$new_n29_ $abc$198$new_n27_ IN[13] $abc$198$new_n33_ open open open open open open open open</port>
 			<port name="R">open</port>
 		</inputs>
 		<outputs>
@@ -14,7 +14,7 @@
 		<clocks>
 			<port name="clk">open</port>
 		</clocks>
-		<block name="$abc$198$new_n32" instance="ble[0]" mode="ble4">
+		<block name="$abc$198$new_n32_" instance="ble[0]" mode="ble4">
 			<inputs>
 				<port name="in_A">open</port>
 				<port name="in_B">clbsite.I[8]-&gt;BLE_inB</port>
@@ -29,7 +29,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n32" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n32_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">open ble.in_B[0]-&gt;direct2 open ble.in_D[0]-&gt;direct7</port>
 				</inputs>
@@ -37,7 +37,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n32" instance="lut[0]">
+				<block name="$abc$198$new_n32_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -45,14 +45,14 @@
 						<port_rotation_map name="in">open 0 open 1</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n32</port>
+						<port name="out">$abc$198$new_n32_</port>
 					</outputs>
 					<clocks />
 				</block>
 			</block>
 			<block name="open" instance="ff[0]" />
 		</block>
-		<block name="$abc$198$new_n30" instance="ble[1]" mode="ble4">
+		<block name="$abc$198$new_n30_" instance="ble[1]" mode="ble4">
 			<inputs>
 				<port name="in_A">clbsite.I[1]-&gt;BLE_inA</port>
 				<port name="in_B">clbsite.I[9]-&gt;BLE_inB</port>
@@ -67,7 +67,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n30" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n30_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">ble.in_A[0]-&gt;direct1 ble.in_B[0]-&gt;direct2 ble.in_C[0]-&gt;direct3 ble.in_D[0]-&gt;direct7</port>
 				</inputs>
@@ -75,7 +75,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n30" instance="lut[0]">
+				<block name="$abc$198$new_n30_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -83,14 +83,14 @@
 						<port_rotation_map name="in">3 0 2 1</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n30</port>
+						<port name="out">$abc$198$new_n30_</port>
 					</outputs>
 					<clocks />
 				</block>
 			</block>
 			<block name="open" instance="ff[0]" />
 		</block>
-		<block name="$abc$198$new_n31" instance="ble[2]" mode="ble4">
+		<block name="$abc$198$new_n31_" instance="ble[2]" mode="ble4">
 			<inputs>
 				<port name="in_A">open</port>
 				<port name="in_B">open</port>
@@ -105,7 +105,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n31" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n31_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">open open ble.in_C[0]-&gt;direct3 ble.in_D[0]-&gt;direct7</port>
 				</inputs>
@@ -113,7 +113,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n31" instance="lut[0]">
+				<block name="$abc$198$new_n31_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -121,14 +121,14 @@
 						<port_rotation_map name="in">open open 0 1</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n31</port>
+						<port name="out">$abc$198$new_n31_</port>
 					</outputs>
 					<clocks />
 				</block>
 			</block>
 			<block name="open" instance="ff[0]" />
 		</block>
-		<block name="$abc$198$new_n29" instance="ble[3]" mode="ble4">
+		<block name="$abc$198$new_n29_" instance="ble[3]" mode="ble4">
 			<inputs>
 				<port name="in_A">clbsite.I[3]-&gt;BLE_inA</port>
 				<port name="in_B">clbsite.I[11]-&gt;BLE_inB</port>
@@ -143,7 +143,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n29" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n29_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">ble.in_A[0]-&gt;direct1 ble.in_B[0]-&gt;direct2 ble.in_C[0]-&gt;direct3 ble.in_D[0]-&gt;direct7</port>
 				</inputs>
@@ -151,7 +151,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n29" instance="lut[0]">
+				<block name="$abc$198$new_n29_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -159,14 +159,14 @@
 						<port_rotation_map name="in">3 1 0 2</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n29</port>
+						<port name="out">$abc$198$new_n29_</port>
 					</outputs>
 					<clocks />
 				</block>
 			</block>
 			<block name="open" instance="ff[0]" />
 		</block>
-		<block name="$abc$198$new_n28" instance="ble[4]" mode="ble4">
+		<block name="$abc$198$new_n28_" instance="ble[4]" mode="ble4">
 			<inputs>
 				<port name="in_A">clbsite.I[4]-&gt;BLE_inA</port>
 				<port name="in_B">clbsite.I[12]-&gt;BLE_inB</port>
@@ -181,7 +181,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n28" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n28_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">ble.in_A[0]-&gt;direct1 ble.in_B[0]-&gt;direct2 ble.in_C[0]-&gt;direct3 ble.in_D[0]-&gt;direct7</port>
 				</inputs>
@@ -189,7 +189,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n28" instance="lut[0]">
+				<block name="$abc$198$new_n28_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -197,7 +197,7 @@
 						<port_rotation_map name="in">0 3 2 1</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n28</port>
+						<port name="out">$abc$198$new_n28_</port>
 					</outputs>
 					<clocks />
 				</block>
@@ -242,7 +242,7 @@
 			</block>
 			<block name="open" instance="ff[0]" />
 		</block>
-		<block name="$abc$198$new_n27" instance="ble[6]" mode="ble4">
+		<block name="$abc$198$new_n27_" instance="ble[6]" mode="ble4">
 			<inputs>
 				<port name="in_A">clbsite.I[6]-&gt;BLE_inA</port>
 				<port name="in_B">clbsite.I[14]-&gt;BLE_inB</port>
@@ -257,7 +257,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n27" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n27_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">ble.in_A[0]-&gt;direct1 ble.in_B[0]-&gt;direct2 open ble.in_D[0]-&gt;direct7</port>
 				</inputs>
@@ -265,7 +265,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n27" instance="lut[0]">
+				<block name="$abc$198$new_n27_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -273,7 +273,7 @@
 						<port_rotation_map name="in">0 2 open 1</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n27</port>
+						<port name="out">$abc$198$new_n27_</port>
 					</outputs>
 					<clocks />
 				</block>
@@ -321,7 +321,7 @@
 	</block>
 	<block name="OUT[36]" instance="clbsite[1]" mode="default">
 		<inputs>
-			<port name="I">open open open IN[9] $abc$198$new_n28 IN[2] $abc$198$new_n31 IN[4] open open IN[0] IN[1] IN[13] open $abc$198$new_n30 $abc$198$new_n29 R0_1 open IN[8] IN[8] open $abc$198$new_n30 IN[2] $abc$198$new_n32 open IN[0] open IN[0] IN[5] IN[10] IN[10] IN[12] open open open open open open open open</port>
+			<port name="I">open open open IN[1] $abc$198$new_n28_ IN[10] $abc$198$new_n31_ IN[12] open open IN[8] IN[9] IN[5] open $abc$198$new_n30_ $abc$198$new_n29_ R0_1 IN[0] IN[0] IN[0] open $abc$198$new_n30_ IN[10] $abc$198$new_n32_ open open open IN[8] IN[13] IN[2] IN[2] IN[4] open open open open open open open open</port>
 			<port name="R">open</port>
 		</inputs>
 		<outputs>
@@ -384,8 +384,8 @@
 			<inputs>
 				<port name="in_A">open</port>
 				<port name="in_B">open</port>
-				<port name="in_C">open</port>
-				<port name="in_D">clbsite.I[25]-&gt;BLE_inD</port>
+				<port name="in_C">clbsite.I[17]-&gt;BLE_inC</port>
+				<port name="in_D">open</port>
 				<port name="R">open</port>
 			</inputs>
 			<outputs>
@@ -397,10 +397,10 @@
 			</clocks>
 			<block name="open" instance="lut4[0]" mode="wire" pb_type_num_modes="2">
 				<inputs>
-					<port name="in">open open open ble.in_D[0]-&gt;direct7</port>
+					<port name="in">open open ble.in_C[0]-&gt;direct3 open</port>
 				</inputs>
 				<outputs>
-					<port name="out">lut4[0].in[3]-&gt;complete:lut4</port>
+					<port name="out">lut4[0].in[2]-&gt;complete:lut4</port>
 				</outputs>
 				<clocks />
 			</block>
@@ -659,9 +659,9 @@
 			<block name="open" instance="ff[0]" />
 		</block>
 	</block>
-	<block name="$abc$198$new_n33" instance="clbsite[2]" mode="default">
+	<block name="$abc$198$new_n33_" instance="clbsite[2]" mode="default">
 		<inputs>
-			<port name="I">open open open open open open open IN[7] open open open open open open open IN[15] open open open open open open open open open open open open open open open open open open open open open open open open</port>
+			<port name="I">open open open open open open open IN[15] open open open open open open open IN[7] open open open open open open open open open open open open open open open open open open open open open open open open</port>
 			<port name="R">open</port>
 		</inputs>
 		<outputs>
@@ -677,7 +677,7 @@
 		<block name="open" instance="ble[4]" />
 		<block name="open" instance="ble[5]" />
 		<block name="open" instance="ble[6]" />
-		<block name="$abc$198$new_n33" instance="ble[7]" mode="ble4">
+		<block name="$abc$198$new_n33_" instance="ble[7]" mode="ble4">
 			<inputs>
 				<port name="in_A">clbsite.I[7]-&gt;BLE_inA</port>
 				<port name="in_B">clbsite.I[15]-&gt;BLE_inB</port>
@@ -692,7 +692,7 @@
 			<clocks>
 				<port name="clk">open</port>
 			</clocks>
-			<block name="$abc$198$new_n33" instance="lut4[0]" mode="lut4">
+			<block name="$abc$198$new_n33_" instance="lut4[0]" mode="lut4">
 				<inputs>
 					<port name="in">ble.in_A[0]-&gt;direct1 ble.in_B[0]-&gt;direct2 open open</port>
 				</inputs>
@@ -700,7 +700,7 @@
 					<port name="out">lut[0].out[0]-&gt;direct:lut4</port>
 				</outputs>
 				<clocks />
-				<block name="$abc$198$new_n33" instance="lut[0]">
+				<block name="$abc$198$new_n33_" instance="lut[0]">
 					<attributes />
 					<parameters />
 					<inputs>
@@ -708,7 +708,7 @@
 						<port_rotation_map name="in">1 0 open open</port_rotation_map>
 					</inputs>
 					<outputs>
-						<port name="out">$abc$198$new_n33</port>
+						<port name="out">$abc$198$new_n33_</port>
 					</outputs>
 					<clocks />
 				</block>

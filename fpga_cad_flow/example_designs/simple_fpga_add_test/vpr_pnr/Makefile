@@ -23,7 +23,7 @@ $(VPR_RUN_GUI_FP):
 
 $(GEN_FASM):
 	python3 modify_rr.py
-	/home/kmgroup/software/vtr-verilog-to-routing/build/utils/fasm/genfasm $(ARCH_FILE) $(WORK_DIR)/yosys/outputs/$(DESIGN_NAME)_syn.eblif $(NUM_CHAN) --read_rr_graph rr_fasm.xml 
+	$(VTR_ROOT)/build/utils/fasm/genfasm $(ARCH_FILE) $(WORK_DIR)/yosys/outputs/$(DESIGN_NAME)_syn.eblif $(NUM_CHAN) --read_rr_graph rr_fasm.xml 
 	#python3 adjust_fasm.py
 
 clean:

@@ -1,11 +1,11 @@
 <vpr_constraints tool_name="vpr">
 <partition_list>
-<partition name="OUT[39]"><add_atom name_pattern="$abc$198$new_n32"/>
-<add_atom name_pattern="$abc$198$new_n31"/>
-<add_atom name_pattern="$abc$198$new_n30"/>
-<add_atom name_pattern="$abc$198$new_n29"/>
-<add_atom name_pattern="$abc$198$new_n28"/>
-<add_atom name_pattern="$abc$198$new_n27"/>
+<partition name="OUT[39]"><add_atom name_pattern="$abc$198$new_n32_"/>
+<add_atom name_pattern="$abc$198$new_n31_"/>
+<add_atom name_pattern="$abc$198$new_n30_"/>
+<add_atom name_pattern="$abc$198$new_n29_"/>
+<add_atom name_pattern="$abc$198$new_n28_"/>
+<add_atom name_pattern="$abc$198$new_n27_"/>
 <add_atom name_pattern="OUT[39]"/>
 <add_atom name_pattern="OUT[38]"/>
 <add_region x_high="3" x_low="3" y_high="1" y_low="1"/>
@@ -20,7 +20,7 @@
 <add_atom name_pattern="OUT[32]"/>
 <add_region x_high="3" x_low="3" y_high="2" y_low="2"/>
 </partition>
-<partition name="$abc$198$new_n33"><add_atom name_pattern="$abc$198$new_n33"/>
+<partition name="$abc$198$new_n33_"><add_atom name_pattern="$abc$198$new_n33_"/>
 <add_region x_high="2" x_low="2" y_high="1" y_low="1"/>
 </partition>
 <partition name="$undef"><add_atom name_pattern="$undef"/>

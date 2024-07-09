@@ -1,0 +1,33 @@
+{
+    "value": {
+        "TERM": "xterm-256color",
+        "XDG_SESSION_ID": "613",
+        "MAKEFLAGS": "",
+        "SSH_CLIENT": "192.168.195.199 49248 22",
+        "USER": "pmarlowe",
+        "MOTD_SHOWN": "pam",
+        "SHLVL": "1",
+        "PWD": "/soe/pmarlowe/Fabric-to-Silicon/fabric_gen",
+        "LANG": "en_US.UTF-8",
+        "FASM": "/soe/pmarlowe/Fabric-to-Silicon/fpga_cad_flow/example_designs/simple_fpga_add_test/vpr_pnr/add.fasm",
+        "SHELL": "/bin/bash",
+        "LOGNAME": "pmarlowe",
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+        "XDG_SESSION_CLASS": "user",
+        "SSH_CONNECTION": "192.168.195.199 49248 192.168.195.13 22",
+        "XDG_SESSION_TYPE": "tty",
+        "OLDPWD": "/soe/pmarlowe/Fabric-to-Silicon/fpga_cad_flow/example_designs/simple_fpga_add_test/vpr_pnr",
+        "HOME": "/soe/pmarlowe",
+        "RRXML": "/soe/pmarlowe/Fabric-to-Silicon/fpga_cad_flow/example_designs/simple_fpga_add_test/vpr_pnr/rr.xml",
+        "XDG_DATA_DIRS": "/soe/pmarlowe/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+        "MFLAGS": "",
+        "MAKELEVEL": "1",
+        "MAKE_TERMERR": "/dev/pts/3",
+        "SSH_TTY": "/dev/pts/3",
+        "MAKE_TERMOUT": "/dev/pts/3",
+        "XDG_RUNTIME_DIR": "/run/user/7566",
+        "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/7566/bus"
+    },
+    "valueHash": -185161512,
+    "inputsHash": 1864197246
+}

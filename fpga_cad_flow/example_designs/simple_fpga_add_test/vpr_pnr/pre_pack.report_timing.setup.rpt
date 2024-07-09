@@ -3,7 +3,7 @@
 # Output precision: 3
 
 #Path 1
-Startpoint: IN[11].inpad[0] (.input clocked by clk)
+Startpoint: IN[3].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[39].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -12,23 +12,23 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[11].inpad[0] (.input)                                         0.000     0.200
+IN[3].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
-$abc$198$new_n31.in[0] (.names)                                  0.000     4.605
+$abc$198$new_n31_.in[0] (.names)                                 0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
-$abc$198$new_n31.out[0] (.names)                                 0.000     4.761
+$abc$198$new_n31_.out[0] (.names)                                0.000     4.761
 | (inter-cluster net delay estimate)                             4.405     9.166
-$abc$198$new_n29.in[0] (.names)                                  0.000     9.166
+$abc$198$new_n29_.in[0] (.names)                                 0.000     9.166
 | (primitive '.names' combinational delay)                       0.155     9.322
-$abc$198$new_n29.out[0] (.names)                                 0.000     9.322
+$abc$198$new_n29_.out[0] (.names)                                0.000     9.322
 | (inter-cluster net delay estimate)                             4.405    13.727
-$abc$198$new_n28.in[1] (.names)                                  0.000    13.727
+$abc$198$new_n28_.in[1] (.names)                                 0.000    13.727
 | (primitive '.names' combinational delay)                       0.155    13.882
-$abc$198$new_n28.out[0] (.names)                                 0.000    13.882
+$abc$198$new_n28_.out[0] (.names)                                0.000    13.882
 | (inter-cluster net delay estimate)                             4.405    18.288
-$abc$198$new_n27.in[2] (.names)                                  0.000    18.288
+$abc$198$new_n27_.in[2] (.names)                                 0.000    18.288
 | (primitive '.names' combinational delay)                       0.155    18.443
-$abc$198$new_n27.out[0] (.names)                                 0.000    18.443
+$abc$198$new_n27_.out[0] (.names)                                0.000    18.443
 | (inter-cluster net delay estimate)                             4.405    22.849
 OUT[39].in[3] (.names)                                           0.000    22.849
 | (primitive '.names' combinational delay)                       0.155    23.004
@@ -50,7 +50,7 @@ slack (VIOLATED)                                                         -27.109
 
 
 #Path 2
-Startpoint: IN[11].inpad[0] (.input clocked by clk)
+Startpoint: IN[3].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[38].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -59,23 +59,23 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[11].inpad[0] (.input)                                         0.000     0.200
+IN[3].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
-$abc$198$new_n31.in[0] (.names)                                  0.000     4.605
+$abc$198$new_n31_.in[0] (.names)                                 0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
-$abc$198$new_n31.out[0] (.names)                                 0.000     4.761
+$abc$198$new_n31_.out[0] (.names)                                0.000     4.761
 | (inter-cluster net delay estimate)                             4.405     9.166
-$abc$198$new_n29.in[0] (.names)                                  0.000     9.166
+$abc$198$new_n29_.in[0] (.names)                                 0.000     9.166
 | (primitive '.names' combinational delay)                       0.155     9.322
-$abc$198$new_n29.out[0] (.names)                                 0.000     9.322
+$abc$198$new_n29_.out[0] (.names)                                0.000     9.322
 | (inter-cluster net delay estimate)                             4.405    13.727
-$abc$198$new_n28.in[1] (.names)                                  0.000    13.727
+$abc$198$new_n28_.in[1] (.names)                                 0.000    13.727
 | (primitive '.names' combinational delay)                       0.155    13.882
-$abc$198$new_n28.out[0] (.names)                                 0.000    13.882
+$abc$198$new_n28_.out[0] (.names)                                0.000    13.882
 | (inter-cluster net delay estimate)                             4.405    18.288
-$abc$198$new_n27.in[2] (.names)                                  0.000    18.288
+$abc$198$new_n27_.in[2] (.names)                                 0.000    18.288
 | (primitive '.names' combinational delay)                       0.155    18.443
-$abc$198$new_n27.out[0] (.names)                                 0.000    18.443
+$abc$198$new_n27_.out[0] (.names)                                0.000    18.443
 | (inter-cluster net delay estimate)                             4.405    22.849
 OUT[38].in[2] (.names)                                           0.000    22.849
 | (primitive '.names' combinational delay)                       0.155    23.004
@@ -97,7 +97,7 @@ slack (VIOLATED)                                                         -27.109
 
 
 #Path 3
-Startpoint: IN[11].inpad[0] (.input clocked by clk)
+Startpoint: IN[3].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[37].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -106,19 +106,19 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[11].inpad[0] (.input)                                         0.000     0.200
+IN[3].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
-$abc$198$new_n31.in[0] (.names)                                  0.000     4.605
+$abc$198$new_n31_.in[0] (.names)                                 0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
-$abc$198$new_n31.out[0] (.names)                                 0.000     4.761
+$abc$198$new_n31_.out[0] (.names)                                0.000     4.761
 | (inter-cluster net delay estimate)                             4.405     9.166
-$abc$198$new_n29.in[0] (.names)                                  0.000     9.166
+$abc$198$new_n29_.in[0] (.names)                                 0.000     9.166
 | (primitive '.names' combinational delay)                       0.155     9.322
-$abc$198$new_n29.out[0] (.names)                                 0.000     9.322
+$abc$198$new_n29_.out[0] (.names)                                0.000     9.322
 | (inter-cluster net delay estimate)                             4.405    13.727
-$abc$198$new_n28.in[1] (.names)                                  0.000    13.727
+$abc$198$new_n28_.in[1] (.names)                                 0.000    13.727
 | (primitive '.names' combinational delay)                       0.155    13.882
-$abc$198$new_n28.out[0] (.names)                                 0.000    13.882
+$abc$198$new_n28_.out[0] (.names)                                0.000    13.882
 | (inter-cluster net delay estimate)                             4.405    18.288
 OUT[37].in[2] (.names)                                           0.000    18.288
 | (primitive '.names' combinational delay)                       0.155    18.443
@@ -140,7 +140,7 @@ slack (VIOLATED)                                                         -22.549
 
 
 #Path 4
-Startpoint: IN[11].inpad[0] (.input clocked by clk)
+Startpoint: IN[3].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[36].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -149,15 +149,15 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[11].inpad[0] (.input)                                         0.000     0.200
+IN[3].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
-$abc$198$new_n31.in[0] (.names)                                  0.000     4.605
+$abc$198$new_n31_.in[0] (.names)                                 0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
-$abc$198$new_n31.out[0] (.names)                                 0.000     4.761
+$abc$198$new_n31_.out[0] (.names)                                0.000     4.761
 | (inter-cluster net delay estimate)                             4.405     9.166
-$abc$198$new_n29.in[0] (.names)                                  0.000     9.166
+$abc$198$new_n29_.in[0] (.names)                                 0.000     9.166
 | (primitive '.names' combinational delay)                       0.155     9.322
-$abc$198$new_n29.out[0] (.names)                                 0.000     9.322
+$abc$198$new_n29_.out[0] (.names)                                0.000     9.322
 | (inter-cluster net delay estimate)                             4.405    13.727
 OUT[36].in[3] (.names)                                           0.000    13.727
 | (primitive '.names' combinational delay)                       0.155    13.882
@@ -179,7 +179,7 @@ slack (VIOLATED)                                                         -17.988
 
 
 #Path 5
-Startpoint: IN[0].inpad[0] (.input clocked by clk)
+Startpoint: IN[8].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[34].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -188,11 +188,11 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[0].inpad[0] (.input)                                          0.000     0.200
+IN[8].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
-$abc$198$new_n30.in[0] (.names)                                  0.000     4.605
+$abc$198$new_n30_.in[0] (.names)                                 0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
-$abc$198$new_n30.out[0] (.names)                                 0.000     4.761
+$abc$198$new_n30_.out[0] (.names)                                0.000     4.761
 | (inter-cluster net delay estimate)                             4.405     9.166
 OUT[34].in[2] (.names)                                           0.000     9.166
 | (primitive '.names' combinational delay)                       0.155     9.322
@@ -214,7 +214,7 @@ slack (VIOLATED)                                                         -13.427
 
 
 #Path 6
-Startpoint: IN[11].inpad[0] (.input clocked by clk)
+Startpoint: IN[3].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[35].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -223,11 +223,11 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[11].inpad[0] (.input)                                         0.000     0.200
+IN[3].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
-$abc$198$new_n31.in[0] (.names)                                  0.000     4.605
+$abc$198$new_n31_.in[0] (.names)                                 0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
-$abc$198$new_n31.out[0] (.names)                                 0.000     4.761
+$abc$198$new_n31_.out[0] (.names)                                0.000     4.761
 | (inter-cluster net delay estimate)                             4.405     9.166
 OUT[35].in[0] (.names)                                           0.000     9.166
 | (primitive '.names' combinational delay)                       0.155     9.322
@@ -249,7 +249,7 @@ slack (VIOLATED)                                                         -13.427
 
 
 #Path 7
-Startpoint: IN[8].inpad[0] (.input clocked by clk)
+Startpoint: IN[0].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[32].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -258,7 +258,7 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[8].inpad[0] (.input)                                          0.000     0.200
+IN[0].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
 OUT[32].in[0] (.names)                                           0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761
@@ -280,7 +280,7 @@ slack (VIOLATED)                                                          -8.866
 
 
 #Path 8
-Startpoint: IN[9].inpad[0] (.input clocked by clk)
+Startpoint: IN[1].inpad[0] (.input clocked by clk)
 Endpoint  : out:OUT[33].outpad[0] (.output clocked by clk)
 Path Type : setup
 
@@ -289,7 +289,7 @@ Point                                                             Incr      Path
 clock clk (rise edge)                                            0.000     0.000
 clock source latency                                             0.000     0.000
 input external delay                                             0.200     0.200
-IN[9].inpad[0] (.input)                                          0.000     0.200
+IN[1].inpad[0] (.input)                                          0.000     0.200
 | (inter-cluster net delay estimate)                             4.405     4.605
 OUT[33].in[0] (.names)                                           0.000     4.605
 | (primitive '.names' combinational delay)                       0.155     4.761

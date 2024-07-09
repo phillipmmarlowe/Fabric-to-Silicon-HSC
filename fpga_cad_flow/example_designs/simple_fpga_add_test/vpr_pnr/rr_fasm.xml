@@ -1,4 +1,4 @@
-<rr_graph tool_comment="Generated from arch file /home/kmgroup/projects/isfpga_tutorial/fpga_cad_flow/example_designs/simple_fpga_add_test/../../vpr_arch_files/k4_N8_simple_fpga.xml" tool_name="vpr" tool_version="8.1.0-dev+7a9676256">
+<rr_graph tool_comment="Generated from arch file /mada/users/pmarlowe/Fabric-to-Silicon/fpga_cad_flow/example_designs/simple_fpga_add_test/../../vpr_arch_files/k4_N8_simple_fpga.xml" tool_name="vpr" tool_version="8.1.0-dev+7a9676256">
 <channels>
 <channel chan_width_max="80" x_max="80" x_min="80" y_max="80" y_min="80"/>
 <x_list index="0" info="80"/>
