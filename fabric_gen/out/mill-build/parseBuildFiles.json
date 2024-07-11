@@ -1,0 +1,22 @@
+{
+    "value": {
+        "seenScripts": [
+            [
+                "/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/build.sc",
+                "// import Mill dependency\nimport mill._\nimport mill.define.Sources\nimport mill.modules.Util\nimport mill.scalalib.TestModule.ScalaTest\nimport scalalib._\n// support BSP\nimport mill.bsp._\n\nobject fts extends ScalaModule { m =>\n  override def millSourcePath = os.pwd\n  override def scalaVersion = \"2.13.12\"\n  override def scalacOptions = Seq(\n    \"-language:reflectiveCalls\",\n    \"-deprecation\",\n    \"-feature\",\n    \"-Xcheckinit\",\n    \"-Ymacro-annotations\",\n  )\n  override def ivyDeps = Agg(\n    ivy\"org.chipsalliance::chisel:6.0.0\",\n    ivy\"com.lihaoyi::upickle:1.4.3\",\n    ivy\"com.lihaoyi::scalatags:0.8.2\",\n    ivy\"io.dylemma::spac-core:0.12.0\",\n    ivy\"io.dylemma::xml-spac:0.12.0\",\n    ivy\"io.dylemma::xml-spac-javax:0.12.0\",\n    ivy\"io.dylemma::xml-spac-fs2-data:0.12.0\",\n    ivy\"org.typelevel::cats-core:2.8.0\"\n  )\n\n  override def scalacPluginIvyDeps = Agg(\n    ivy\"org.chipsalliance:::chisel-plugin:6.0.0\",\n  )\n}\n\n//ivy\"org.scalamacros:::paradise:2.1.1\",\n"
+            ]
+        ],
+        "repos": [],
+        "ivyDeps": [],
+        "importGraphEdges": [
+            [
+                "/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/build.sc",
+                []
+            ]
+        ],
+        "errors": [],
+        "millImport": false
+    },
+    "valueHash": 468483125,
+    "inputsHash": 124277491
+}
