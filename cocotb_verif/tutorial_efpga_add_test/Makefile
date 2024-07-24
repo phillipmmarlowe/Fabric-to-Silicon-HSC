@@ -32,7 +32,8 @@
 ######################################################
 TOPLEVEL_LANG ?= verilog
 PWD=$(shell pwd)
-SIM ?= xcelium
+#SIM ?= xcelium
+SIM ?= vcs
 COCOTB_HDL_TIMEUNIT ?= 1ps
 COCOTB_HDL_TIMEPRECISION ?= 1ps
 
@@ -104,6 +105,16 @@ SIM_ARGS+="-suppress vlog-12003"
 else ifeq ($(SIM),xcelium)
 COMPILE_ARGS+="-nowarn PRPASZ" # SHM can't probe wide signals warning
 COMPILE_ARGS+="-nowarn LMTMSG" # SHM can't probe wide signals warning 2
+
+else ifeq ($(SIM),vcs)
+#SIM_BUILD		   = sim_build/gl
+COMPILE_ARGS      += +lint=all
+COMPILE_ARGS      += -LDFLAGS "-Wl,--no-as-needed"
+COMPILE_ARGS      += -debug_acess+all -negdelay +neg_tchk
+COMPILE_ARGS      += +verilog1995ext+.v -acc+2
+COMPILE_ARGS      += -nc -full64 -sverilog +v2k -ntb -debug_access+all -tb_timescale=1ns/1ps +vcs+vcdpluson
+COMPILE_ARGS      += +sdfverbose +allmtm +csdf+precompile +csdf+precomp+dir+sdf_vcs
+SIM_ARGS          += -vcd waves.vcd
 
 #COMPILE_ARGS+="-xminitialize rand_2state"
 #COMPILE_ARGS+="-xminit_log init.log"
