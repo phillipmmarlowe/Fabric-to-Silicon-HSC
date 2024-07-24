@@ -13,13 +13,13 @@
   },
   {
     "label": "fts.platformSuffix",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "inputsHash": 340813806
   },
   {
     "label": "fts.ivyDeps",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "inputsHash": -1324650669
   },
@@ -31,7 +31,7 @@
   },
   {
     "label": "fts.scalaOrganization",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "fts.scalaVersion"
@@ -40,7 +40,7 @@
   },
   {
     "label": "fts.scalaLibraryIvyDeps",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "fts.scalaOrganization",
@@ -60,7 +60,7 @@
   },
   {
     "label": "fts.transitiveIvyDeps",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "fts.scalaVersion",
@@ -72,7 +72,7 @@
   },
   {
     "label": "fts.resolvedRunIvyDeps",
-    "millis": 45,
+    "millis": 47,
     "cached": true,
     "dependencies": [
       "fts.scalaVersion",
@@ -85,25 +85,25 @@
   },
   {
     "label": "fts.transitiveLocalClasspath",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "inputsHash": -907086388
   },
   {
     "label": "fts.compileResources",
-    "millis": 1,
-    "inputsHash": 1491551185,
-    "previousInputsHash": 1341853238
+    "millis": 2,
+    "inputsHash": -868150983,
+    "previousInputsHash": 988628757
   },
   {
     "label": "fts.unmanagedClasspath",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": -995547768
   },
   {
     "label": "fts.localCompileClasspath",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "fts.compileResources",
@@ -113,21 +113,21 @@
   },
   {
     "label": "fts.resources",
-    "millis": 2,
-    "inputsHash": 1606681150,
-    "previousInputsHash": 2116586038
+    "millis": 1,
+    "inputsHash": -1308954915,
+    "previousInputsHash": 1682939893
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.classpath",
-    "millis": 1,
+    "millis": 2,
     "cached": true,
     "inputsHash": -901161068
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.zincLogDebug",
-    "millis": 2,
-    "inputsHash": -903176544,
-    "previousInputsHash": 1469129634
+    "millis": 1,
+    "inputsHash": -1266024053,
+    "previousInputsHash": -1568713621
   },
   {
     "label": "mill.scalalib.ZincWorkerModule.worker",
@@ -147,13 +147,13 @@
   },
   {
     "label": "fts.sources",
-    "millis": 53,
-    "inputsHash": -1666482189,
-    "previousInputsHash": 593788007
+    "millis": 51,
+    "inputsHash": 83279511,
+    "previousInputsHash": 115117882
   },
   {
     "label": "fts.generatedSources",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "inputsHash": 1105524337
   },
@@ -184,7 +184,7 @@
   },
   {
     "label": "fts.transitiveCompileIvyDeps",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "fts.scalaVersion",
@@ -224,13 +224,13 @@
   },
   {
     "label": "fts.javacOptions",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": 1588070757
   },
   {
     "label": "fts.mandatoryScalacOptions",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "inputsHash": 185364568
   },
@@ -242,7 +242,7 @@
   },
   {
     "label": "fts.enablePluginScalacOptions.super.mill.scalalib.ScalaModule.enablePluginScalacOptions",
-    "millis": 2,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "fts.scalaVersion",
@@ -296,12 +296,12 @@
   {
     "label": "fts.zincReportCachedProblems",
     "millis": 1,
-    "inputsHash": -2106483082,
-    "previousInputsHash": 1470171184
+    "inputsHash": 1819399950,
+    "previousInputsHash": 315941564
   },
   {
     "label": "fts.compile",
-    "millis": 0,
+    "millis": 1,
     "cached": true,
     "dependencies": [
       "fts.scalaVersion",
@@ -320,7 +320,7 @@
   },
   {
     "label": "fts.localClasspath",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "dependencies": [
       "fts.localCompileClasspath",
@@ -348,13 +348,13 @@
   },
   {
     "label": "fts.forkEnv",
-    "millis": 2,
-    "inputsHash": 1864197246,
-    "previousInputsHash": -1226834427
+    "millis": 3,
+    "inputsHash": -884969736,
+    "previousInputsHash": -1750213579
   },
   {
     "label": "fts.forkWorkingDir",
-    "millis": 1,
+    "millis": 0,
     "cached": true,
     "inputsHash": -759459895
   },
@@ -366,7 +366,7 @@
   },
   {
     "label": "fts.runMain",
-    "millis": 579,
+    "millis": 576,
     "cached": false,
     "dependencies": [
       "fts.runClasspath",
@@ -375,7 +375,7 @@
       "fts.forkWorkingDir",
       "fts.runUseArgsFile"
     ],
-    "inputsHash": 1681229372,
-    "previousInputsHash": -2110330397
+    "inputsHash": 2020771235,
+    "previousInputsHash": -30282988
   }
 ]
