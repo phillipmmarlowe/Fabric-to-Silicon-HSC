@@ -1,12 +1,12 @@
 {
     "value": [
-        "-Xplugin:/soe/pmarlowe/.cache/coursier/v1/https/repo1.maven.org/maven2/org/chipsalliance/chisel-plugin_2.13.12/6.0.0/chisel-plugin_2.13.12-6.0.0.jar",
+        "-Xplugin:/home/pmarlowe/.cache/coursier/v1/https/repo1.maven.org/maven2/org/chipsalliance/chisel-plugin_2.13.12/6.0.0/chisel-plugin_2.13.12-6.0.0.jar",
         "-language:reflectiveCalls",
         "-deprecation",
         "-feature",
         "-Xcheckinit",
         "-Ymacro-annotations"
     ],
-    "valueHash": -1036018679,
-    "inputsHash": 423409346
+    "valueHash": 1200933138,
+    "inputsHash": 1789184163
 }

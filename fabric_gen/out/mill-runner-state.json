@@ -1,15 +1,6 @@
 {
-    "workerCache": {
-        "mill.scalalib.ZincWorkerModule.worker": {
-            "identityHashCode": 161113555,
-            "inputHash": 1838002759
-        }
-    },
-    "evalWatched": [
-        "ref:v0:704c8951:/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/src",
-        "ref:v0:c984eca8:/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/resources",
-        "ref:v0:c984eca8:/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/compile-resources"
-    ],
+    "workerCache": {},
+    "evalWatched": [],
     "moduleWatched": [],
     "scriptImportGraph": [],
     "classLoaderIdentity": [],

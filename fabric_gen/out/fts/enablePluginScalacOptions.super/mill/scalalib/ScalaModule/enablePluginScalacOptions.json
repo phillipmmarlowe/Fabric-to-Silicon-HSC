@@ -1,7 +1,7 @@
 {
     "value": [
-        "-Xplugin:/soe/pmarlowe/.cache/coursier/v1/https/repo1.maven.org/maven2/org/chipsalliance/chisel-plugin_2.13.12/6.0.0/chisel-plugin_2.13.12-6.0.0.jar"
+        "-Xplugin:/home/pmarlowe/.cache/coursier/v1/https/repo1.maven.org/maven2/org/chipsalliance/chisel-plugin_2.13.12/6.0.0/chisel-plugin_2.13.12-6.0.0.jar"
     ],
-    "valueHash": -1039327143,
-    "inputsHash": -938764991
+    "valueHash": -665847485,
+    "inputsHash": 1991984576
 }

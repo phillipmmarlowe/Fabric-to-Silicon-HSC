@@ -1,0 +1,7 @@
+# Cadence Genus(TM) Synthesis Solution, Version 21.10-p002_1, built Aug 20 2021 10:13:13
+
+# Date: Mon Jul 29 17:40:31 2024
+# Host: eq1 (x86_64 w/Linux 5.15.0-89-generic) (24cores*24cpus*1physical cpu*13th Gen Intel(R) Core(TM) i9-13900K 36864KB)
+# OS:   Unsupported OS as /etc does not have release info
+
+source scripts/genus.tcl
