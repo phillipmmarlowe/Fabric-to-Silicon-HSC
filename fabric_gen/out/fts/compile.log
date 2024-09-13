@@ -1,19 +1,19 @@
-[0m[[0m[0minfo[0m] [0m[0mcompiling 21 Scala sources to /mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/out/fts/compile.dest/classes ...[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/vtrutils/fasm/FasmParse.scala:73:17: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getLines,[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 21 Scala sources to /home/pmarlowe/Fabric-to-Silicon/fabric_gen/out/fts/compile.dest/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/vtrutils/fasm/FasmParse.scala:73:17: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method getLines,[0m
 [0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
 [0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
 [0m[[0m[33mwarn[0m] [0m[0m  val fasm = fp.getLines[0m
 [0m[[0m[33mwarn[0m] [0m[0m                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/vtrutils/other/AppPinMap.scala:5:33: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `main`'s return type [quickfixable][0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/vtrutils/other/AppPinMap.scala:5:33: procedure syntax is deprecated: instead, add `: Unit =` to explicitly declare `main`'s return type [quickfixable][0m
 [0m[[0m[33mwarn[0m] [0m[0m  def main(args: Array[String]) {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/efpga/logicblks/CLBlut4N10Alu.scala:70:14: method copyArrayToImmutableIndexedSeq in class LowPriorityImplicits2 is deprecated (since 2.13.0): implicit conversions from Array to immutable.IndexedSeq are implemented by copying; use `toIndexedSeq` explicitly if you want to copy, or use the more efficient non-copying ArraySeq.unsafeWrapArray[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/efpga/logicblks/CLBlut4N10Alu.scala:70:14: method copyArrayToImmutableIndexedSeq in class LowPriorityImplicits2 is deprecated (since 2.13.0): implicit conversions from Array to immutable.IndexedSeq are implemented by copying; use `toIndexedSeq` explicitly if you want to copy, or use the more efficient non-copying ArraySeq.unsafeWrapArray[0m
 [0m[[0m[33mwarn[0m] [0m[0m        Array(3.U -> I(pin)((i + 3) % lutCnt), 2.U -> I(pin)((i + 2) % lutCnt), 1.U -> I(pin)((i + 1) % lutCnt), 0.U -> I(pin)(i))))[0m
 [0m[[0m[33mwarn[0m] [0m[0m             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/efpga/tiles/TileFull.scala:220:12: method filterKeys in trait MapOps is deprecated (since 2.13.0): Use .view.filterKeys(f). A future version will include a strict version of this method (for now, .view.filterKeys(p).toMap).[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/efpga/tiles/TileFull.scala:220:12: method filterKeys in trait MapOps is deprecated (since 2.13.0): Use .view.filterKeys(f). A future version will include a strict version of this method (for now, .view.filterKeys(p).toMap).[0m
 [0m[[0m[33mwarn[0m] [0m[0m    ioOuts.filterKeys(rrGrf.muxNodes(_).ntype=="OPIN").foreach {case (nId, opin) =>[0m
 [0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/vtrutils/RRtile.scala:62:21: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/pmarlowe/Fabric-to-Silicon/fabric_gen/src/main/scala/vtrutils/RRtile.scala:62:21: match may not be exhaustive.[0m
 [0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Node(_, (x: String forSome x not in ("CHANX", "CHANY", "IPIN")), _, _, _)[0m
 [0m[[0m[33mwarn[0m] [0m[0m      val numBits = node match {[0m
 [0m[[0m[33mwarn[0m] [0m[0m                    ^[0m

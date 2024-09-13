@@ -1,13 +1,13 @@
 {
     "value": [
         [
-            "/mada/users/pmarlowe/Fabric-to-Silicon/fabric_gen/build.sc",
+            "/home/pmarlowe/Fabric-to-Silicon/fabric_gen/build.sc",
             [
-                -421785658,
+                1721995517,
                 []
             ]
         ]
     ],
-    "valueHash": 1204331998,
-    "inputsHash": -1532838314
+    "valueHash": -117156570,
+    "inputsHash": 523341565
 }
